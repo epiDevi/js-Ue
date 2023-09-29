@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Event</title>
+</head>
+<body>
+
+    <input type="text" id="text1" placeholder="Level1-1">
+    <section>
+        <h3> Klickzähler </h3>
+        <button id="clickMe">Click me: 0</button>
+        <h5>Gute Praxis: kein JavaScript-Code im HTML</h5>
+    </section>
+    <section>
+        <select name="dropdown" id="drop">
+            <option value="select1">select 1</option>
+            <option value="select2">select 2</option>
+            <option value="select3">select 3</option>
+            <option value="select4">select 4</option>
+            <option value="select5">select 5</option>
+        </select>
+        <p id="resultSelect"></p>
+    </section>
+    <section>
+        <form onsubmit="return false">
+            <select id="farbeAuswahlen">
+                <option value="1">Medium Orchid</option>
+                <option value="2">Mint Cream</option>
+                <option value="3">Dodger Blue</option>
+                <option value="4">Goldenrod</option>
+                <option value="5">Wheat</option>
+                <option value="6">Medium Turquoise</option>
+                <option value="7">Moccasin</option>
+                <option value="8">Fire Brick</option>
+                <option value="9">Lime Green</option>
+                <option value="10">Slate Gray</option>
+            </select>
+            <button id="button">Farbe von Liste Entfernen</button>
+            <br>
+            <h2 style="margin: 20px 0 20px 0; border-top: 1px solid black;">Change Body color</h2>
+            <select id="farbeAuswahlen2">
+                <option id="1" >Medium Orchid</option>
+                <option id="2">Mint Cream</option>
+                <option id="3">Dodger Blue</option>
+                <option id="4">Goldenrod</option>
+                <option id="5">Wheat</option>
+                <option id="6">Medium Turquoise</option>
+                <option id="7">Moccasin</option>
+                <option id="8">Fire Brick</option>
+                <option id="9">Lime Green</option>
+                <option id="10">Slate Gray</option>
+            </select>
+            <button id="button2">Farbe von Liste Background farben</button>
+        </form>
+        
+    </section>
+    <script src="./assets/js/main.js" ></script>
+</body>
+</html>
